@@ -11,6 +11,6 @@ function draw() {
 }
 
 function mousePressed() {
-    var s = createSprite(mouseX,mouseY,30,30);
+    const s = createSprite(mouseX,mouseY,30,30);
     s.velocity.y = mouseY > height / 2 ? -5 : 5;
 }
