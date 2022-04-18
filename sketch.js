@@ -10,6 +10,8 @@ function draw() {
 }
 
 function mousePressed() {
+    //Creates a sprite
     const s = createSprite(mouseX,mouseY,30,30);
+    //Sets the sprites velocity based on mouse location
     s.velocity.y = mouseY > height / 2 ? -5 : 5;
 }
